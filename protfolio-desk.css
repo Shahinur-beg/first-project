@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1{width: 12.5%;}
+.col-2{width: 25%;}
+.col-3{width: 33.33%;}
+.col-4{width: 37.5%;}
+.col-5{width: 50%;}
+.col-6{width: 62.5%;}
+.col-7{width: 75%;}
+.col-8{width: 87.5%;}
+.col-9{width: 100%;}
+
+/* navbar css start */
+.navbar{
+    display: grid;
+    grid-template-columns: 33.33%  33.33% 33.33%;
+}
+.nav-logo{
+    margin-left: 40px;
+    text-align: left;
+ }
+ .nav-link{
+     margin-top: 8px;
+     font-size: 18px;
+ }
+ .nav-link a{
+     display: inline;
+}
+.navbar{
+  content: '';
+  clear: both;  
+}
+/* navbar css end */
+
+/* marquee css */
+marquee{
+    font-size: 20px;
+}
+/* profile css start */
+.top-icon img{
+    margin-right: 30px;
+}
+.bottom-icon{
+    margin-top: 0px;
+}
+.bottom-icon img{
+    margin-left: 20px;
+}
+.top-icon img, .bottom-icon img{
+    width: 200px;
+    height: 200px;
+}
+.profile-content p{
+   width: 40%;
+   margin: 0px auto;
+}
+.profile{
+    content: '';
+    clear: both;
+}
+/* profile css end */
+
+/* about css start */
+ .about-content{
+    display: flex; 
+ }
+ .about-img{
+     float: left;
+     width: 50%;
+ }
+ .about-img img{
+     width: 400px;
+     height: 400px;
+ }
+ .about-desc{
+     float: right;
+     text-align: left;
+ }
+ #about-me{
+    content: '';
+    clear: both;
+}
+/* about css end */
+
+/* professional skill css start */
+.profession{
+   display: flex;
+}
+.education{
+   float: left;
+   width: 50%;
+   height: 500px;
+   margin:0px 40px
+}
+.skill{
+    margin: 0px;
+   float: right;
+   width: 50%;
+   height: 500px;
+   margin:0px 40px
+}
+/* professional skill css end */
+
+/* contact css start */
+#contact-me{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.email-contact{
+   padding: 10px;
+}
+.email-contact button{
+    margin-bottom: 0px;
+}
+.more-contact{
+    margin-top: 10px;
+}
+.more-btn{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+.more-btn button{
+  width: 100px;
+  margin: 28px 0px;
+}
+ /* contact css end */
+
+ /* footer css start */
+ .footer .copy{
+     display: inline;
+ }
+/* footer css start */
